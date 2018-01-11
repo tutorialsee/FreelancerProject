@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/addanyprojectsecond"
+        android:padding="15dp" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/sddkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="Sign in as"
+            android:textColor="@color/white"
+            android:textSize="15sp" >
+        </TextView>
+
+        
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="380dp"
+        android:layout_below="@+id/first"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="380dp"
+            android:layout_weight=".5"
+            android:background="@drawable/ingssss"
+            android:orientation="vertical" >
+
+            <com.tutorialsee.freelancerproject.MyVerticalSeekBar
+                android:id="@+id/vertical_Seekbar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:max="100"
+                android:progressDrawable="@android:color/transparent"
+                android:thumb="@drawable/seekbar_thumb" />
+        </LinearLayout>
+
+        
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Post a Project / Hire freelancers"
+                    android:textColor="#795548"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="I am a Freelancers"
+                    android:textColor="#795548"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                     android:layout_marginBottom="15dp"
+                    android:text="I have a Comapny"
+                    android:textColor="#795548"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+ <include
+        android:id="@+id/footer"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+   layout="@layout/bottomlayout" />
+</RelativeLayout>

@@ -1,0 +1,234 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/addanyprojectsecond"
+        android:padding="15dp" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:visibility="gone"
+            android:text="Software Developement service"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+       
+        
+         <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="Mobile Application Development"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+         
+         <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="Website Development Services"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+         
+         <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="Digital Marketing Presence"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+         
+         <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="SUPPORT AND MAINTENANCE SERVICES"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+     
+    </RelativeLayout>
+ <ScrollView
+        android:id="@+id/ss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/first"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:layout_marginBottom="60dp"
+        android:scrollbars="none" >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/imagebackgroundcolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_below="@+id/first">
+       <!--  #ffffff
+        #3CBCC3 
+        #FAFAFA
+        #ffffff
+        #A8A8B2-->
+         <ImageView
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:visibility="gone"
+            android:src="@drawable/servicea" />
+      
+         <ImageView
+            android:id="@+id/image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+             android:visibility="gone"
+            android:src="@drawable/serviceb" />
+         
+          <ImageView
+            android:id="@+id/image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+             android:visibility="gone"
+            android:src="@drawable/servicec" />
+          
+           <ImageView
+            android:id="@+id/image4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+             android:visibility="gone"
+            android:src="@drawable/serviced" />
+           
+            <ImageView
+            android:id="@+id/image5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+             android:visibility="gone"
+            android:src="@drawable/servicee" />
+        
+        </RelativeLayout>
+    
+    
+          <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+        
+          <TextView
+            android:id="@+id/wordtext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+            android:text="@string/servicedetaila"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:textSize="15sp" />
+       
+          <TextView
+            android:id="@+id/wordtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+            android:text="@string/servicedetailb"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:textSize="15sp" />
+          
+          <TextView
+            android:id="@+id/wordtext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+            android:text="@string/servicedetailc"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:textSize="15sp" />
+          
+          <TextView
+            android:id="@+id/wordtext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+            android:text="@string/servicedetaild"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:textSize="15sp" />
+          
+          <TextView
+            android:id="@+id/wordtext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+            android:text="@string/servicedetaile"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:textSize="15sp" />
+         
+         </LinearLayout>
+         </LinearLayout>
+         </ScrollView>
+          <include
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/bottomlayout" />
+</RelativeLayout>

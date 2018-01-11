@@ -1,0 +1,676 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/addanyprojectsecond"
+        android:padding="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Setting"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:contentDescription="@drawable/settingback"
+            android:src="@drawable/settingback" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/firstss"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@+id/first"
+        android:background="#5CC3EA" >
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/firstss"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical" >
+
+
+            
+
+            
+
+            <RelativeLayout
+                android:id="@+id/lin66gf6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#B9B5B5"
+                android:orientation="vertical" >
+            </RelativeLayout>
+
+            
+
+
+            <LinearLayout
+                android:id="@+id/home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/btn_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/sliderhome"
+                    android:src="@drawable/sliderhome" />
+
+                <TextView
+                    android:id="@+id/_orderss"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Home"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/btn_kilol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/sliderproject"
+                    android:src="@drawable/sliderproject" />
+
+                <TextView
+                    android:id="@+id/_orderr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Post Your Project"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+            
+            
+            <LinearLayout
+                android:id="@+id/sliderfirsy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible" >
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            <LinearLayout
+                android:id="@+id/posted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/btn_kidflol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/sliderposted"
+                    android:src="@drawable/sliderposted" />
+
+                <TextView
+                    android:id="@+id/_ordsdfferr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Posted Project"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/waiting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/btn_sdkilol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/sliderwaiting"
+                    android:src="@drawable/sliderwaiting" />
+
+                <TextView
+                    android:id="@+id/_orderrsddf"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Waiting Project"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/approved"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/btn_kisgelol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/sliderapprove"
+                    android:src="@drawable/sliderapprove" />
+
+                <TextView
+                    android:id="@+id/_ordefgsrr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Approved Project"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+            
+            
+            
+            
+            
+            <LinearLayout
+                android:id="@+id/freelancer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/btn_ksdfheilol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/slidercompany"
+                    android:src="@drawable/slidercompany" />
+
+                <TextView
+                    android:id="@+id/_ordesdfdfsrr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Freelanucers/Company Hire"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:id="@+id/service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F7F7F7"
+                android:layout_marginTop="0.1dp"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+       <ImageView
+                    android:id="@+id/btn_kcilol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/sliderservice"
+                    android:src="@drawable/sliderservice" />
+                <TextView
+                    android:id="@+id/_ordss"
+                   android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="SERVICES"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/service1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                 android:background="#F7F7F7"
+                android:padding="10dp" >
+
+                
+
+                <TextView
+                    android:id="@+id/_Myorderrss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:text="Software Development Services"
+                    android:textColor="#4F5D6A"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+
+           
+
+           
+
+            <RelativeLayout
+                android:id="@+id/service2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="#F7F7F7"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+
+                <TextView
+                    android:id="@+id/_orderrss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:text="Mobile Development Services"
+                    android:textColor="#4F5D6A"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/service3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="#F7F7F7"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+               
+
+                <TextView
+                    android:id="@+id/_gift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:text="Website Development Services"
+                    android:textColor="#4F5D6A"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/service4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:background="#F7F7F7"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+               
+
+                <TextView
+                    android:id="@+id/_txt_aboutus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:text="Digital Marketing Services"
+                    android:textColor="#4F5D6A"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/service5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F7F7F7"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                
+
+                <TextView
+                    android:id="@+id/_txt_stores"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:text="Support and Maintenance"
+                    android:textColor="#4F5D6A"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+                android:id="@+id/slidersecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:visibility="visible"
+                android:orientation="vertical">
+            
+            <LinearLayout
+                android:id="@+id/pricing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/btn_kilolsterroe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/sliderprice"
+                    android:src="@drawable/sliderprice" />
+
+                <TextView
+                     android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Pricing"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/myprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/slideruser"
+                    android:src="@drawable/slideruser" />
+
+                <TextView
+                     android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="My Profile"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/aboutus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/sliderabout"
+                    android:src="@drawable/sliderabout" />
+
+                <TextView
+                   android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="About Us"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+            
+            
+            <LinearLayout
+                android:id="@+id/contactus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/sliderabout"
+                    android:src="@drawable/sliderabout" />
+
+                <TextView
+                   android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Contact Us"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:contentDescription="@drawable/sliderwork"
+                    android:src="@drawable/sliderwork" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="How It works"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F2ECEC"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

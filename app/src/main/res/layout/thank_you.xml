@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/addanyprojectsecond"
+        android:padding="15dp" >
+
+       
+        <TextView
+            android:id="@+id/sddkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="Posting Project"
+            android:textColor="@color/white"
+            android:textSize="15sp" >
+            
+            
+        </TextView>
+
+       
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/firsts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:gravity="center" >
+ <ImageView
+          android:id="@+id/postproject"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:background="@null"
+          android:src="@drawable/thankyounew"
+          android:contentDescription="@drawable/thankyounew"
+          android:gravity="center" />
+        <TextView
+            android:id="@+id/skdfip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Thank You for Posting project our executed will be contact you sortly for porject Verfication"
+            android:textColor="#795548"
+            android:textSize="14sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firsts"
+        android:background="@color/white"
+        android:clickable="false"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal"
+        android:padding="1dip" >
+
+         <ImageView
+                        android:id="@+id/txt_paymfdent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/qqs"
+                        android:contentDescription="@drawable/qqs" />
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1.0"
+            android:background="#795548" />
+
+         <ImageView
+                        android:id="@+id/txt_payfgmfdent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/qqq"
+                        android:contentDescription="@drawable/qqq" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1.0"
+            android:background="#795548" />
+
+          <ImageView
+                        android:id="@+id/txt_paykkfgmfdent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/qqqq"
+                        android:contentDescription="@drawable/qqqq" />
+    </LinearLayout>
+    
+    
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/lin1"
+            android:gravity="center"
+            android:text="7"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#795548"
+            android:textSize="40sp" >
+        </TextView>
+    
+        <include
+        android:id="@+id/footer"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+   layout="@layout/bottomlayout" />
+
+</RelativeLayout>

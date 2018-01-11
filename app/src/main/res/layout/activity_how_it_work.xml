@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/addanyprojectsecond"
+        android:padding="15dp" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/sddkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="How It Works"
+            android:textColor="@color/white"
+            android:textSize="15sp" >
+        </TextView>
+
+     
+    </RelativeLayout>
+     <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/first"
+        android:layout_marginBottom="50dp"
+        android:background="#FFFFF4"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFF4"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="How to Post Project"
+                android:textColor="#795548"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/layout_marginBottom"
+                android:layout_marginLeft="@dimen/layout_marginLeft"
+                android:layout_marginRight="@dimen/layout_marginRight"
+                android:layout_marginTop="@dimen/layout_marginTop"
+                android:gravity="center"
+                android:text="Post your project for free, Compare and select Freelancers/Service Providers."
+                android:textColor="#34474F"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/post"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="#34474F"
+                android:text="POST YOUR PROJECT"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/linje"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginLeft="@dimen/layout_marginLeft"
+            android:layout_marginRight="@dimen/layout_marginLeft"
+            android:background="#4EBD4A" />
+
+        <LinearLayout
+            android:id="@+id/fors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFF4"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="How to Get Project"
+                android:textColor="#795548"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/layout_marginBottom"
+                android:layout_marginLeft="@dimen/layout_marginLeft"
+                android:layout_marginRight="@dimen/layout_marginRight"
+                android:layout_marginTop="@dimen/layout_marginTop"
+                android:gravity="center"
+                android:text="Let&apos;s start working on the best projects in the IT Market World."
+                android:textColor="#34474F"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/get"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="#34474F"
+                android:text="Get Your Project"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    
+    
+     <include
+        android:id="@+id/footer"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+   layout="@layout/bottomlayout" />
+</RelativeLayout>

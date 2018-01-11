@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E5E5E5" >
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="25dp"
+        android:padding="8dp" >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/dashboardlogo"
+            android:contentDescription="@drawable/dashboardlogo" />
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:contentDescription="@drawable/settingblue"
+            android:src="@drawable/settingblue" />
+    </RelativeLayout>
+
+
+    
+    
+    
+    
+    <LinearLayout
+         android:id="@+id/firstsss"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:background="@color/addanyprojectsecond"
+                      android:layout_below="@+id/first"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/total"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="  Total Credits  "
+                            android:textColor="#ffffff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="#ffffff"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="  Used  Credits  "
+                            android:textColor="#ffffff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="#ffffff"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Available credits"
+                            android:textColor="#ffffff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="#ffffff"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+                </LinearLayout>
+    
+    
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/firstsss"
+        android:background="#E5E5E5"
+        android:fitsSystemWindows="true" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="none"
+            android:fillViewport="true"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:background="#E5E5E5"
+                    android:clipToPadding="false"
+                    android:overScrollMode="never"
+                    android:paddingEnd="@dimen/card_padding"
+                    android:paddingLeft="@dimen/card_padding"
+                    android:paddingRight="@dimen/card_padding"
+                    android:paddingStart="@dimen/card_padding"
+                    android:paddingTop="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#E5E5E5"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#78909C"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ECEFF1"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/title"
+                                style="@style/TextAppearance.AppCompat.Title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/addanyprojectsecond"
+                                android:gravity="left"
+                                 android:textSize="12sp"
+                                android:padding="10dp"
+                                android:text="DESCRIPTION"
+                               
+                                android:textColor="#ffffff" />
+
+                            <TextView
+                                android:id="@+id/titdfdle"
+                                style="@style/TextAppearance.AppCompat.Title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#ECEFF1"
+                                android:gravity="center"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="i am looking for motivational website service. it should be a simple website where i should add images"
+                                android:textColor="#455A64"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="#78909C"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ECEFF1"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/titxcle"
+                                style="@style/TextAppearance.AppCompat.Title"
+                                 android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/addanyprojectsecond"
+                                android:gravity="left"
+                                 android:textSize="12sp"
+                                android:padding="10dp"
+                                android:text="PRIORITY"
+                                android:textColor="#ffffff" />
+
+                            <TextView
+                                android:id="@+id/titdfxcdle"
+                                style="@style/TextAppearance.AppCompat.Title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#ECEFF1"
+                                android:gravity="center"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="MEDIUM"
+                                android:textColor="#455A64"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="#78909C"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ECEFF1"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/titxddacle"
+                                style="@style/TextAppearance.AppCompat.Title"
+                                 android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/addanyprojectsecond"
+                                android:gravity="left"
+                                 android:textSize="12sp"
+                                android:padding="10dp"
+                                android:text="PROVIDERS FROM"
+                                android:textColor="#ffffff" />
+
+                            <TextView
+                                android:id="@+id/titdfxdfcdle"
+                                style="@style/TextAppearance.AppCompat.Title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#ECEFF1"
+                                android:gravity="center"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="ANY WHERE FROM INDIA"
+                                android:textColor="#455A64"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="#78909C"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ECEFF1"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/titxdddsdfdacle"
+                                style="@style/TextAppearance.AppCompat.Title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/addanyprojectsecond"
+                                android:gravity="left"
+                                 android:textSize="12sp"
+                                android:padding="10dp"
+                                android:text="COMPANY / FREELANCER"
+                                android:textColor="#ffffff" />
+
+                            <TextView
+                                android:id="@+id/titdfdfhxdffvfcdle"
+                                style="@style/TextAppearance.AppCompat.Title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#ECEFF1"
+                                android:gravity="center"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="COMPANIES"
+                                android:textColor="#455A64"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/client"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="70dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_border"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Contact Client"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <include
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/bottomlayout" />
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

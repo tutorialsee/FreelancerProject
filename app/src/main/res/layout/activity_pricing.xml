@@ -1,0 +1,422 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/blackleft" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/firsts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Package Details"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="#E9E9E9"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:background="@color/black"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Basic 2 credits"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="2 Buy Leads"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="--"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Rs.2000.00/-"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/user"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/editprofile"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@drawable/backgrounds"
+                            android:text="Order Now"
+                            android:textAllCaps="true"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#E9E9E9"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/black"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Silver 10 credits"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="7 Buy Leads"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="3 Bids"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Rs.8000.00/-"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/usfgser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/editprghofile"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="3dp"
+                           android:background="@drawable/backgrounds"
+                            android:text="Order Now"
+                            android:textAllCaps="true"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="#E9E9E9"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:background="@color/black"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Gold    15    credits"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="10 Buy Leads"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="5 Bids"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Rs.11000.00/-"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/usafer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/editpghfrofile"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="3dp"
+                           android:background="@drawable/backgrounds"
+                            android:text="Order Now"
+                            android:textAllCaps="true"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#E9E9E9"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/black"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Platinum 25 credits"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="17 Buy Leads"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="8 Bids"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Rs.17000.00/-"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/usedfr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.1dp"
+                        android:layout_marginLeft="0.1dp"
+                        android:layout_marginRight="0.1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/editprfgofile"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="3dp"
+                           android:background="@drawable/backgrounds"
+                            android:text="Order Now"
+                            android:textAllCaps="true"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
